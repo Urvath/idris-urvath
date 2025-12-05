@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro To Idris</title>
+
+    <style>
+        /* GLOBAL STYLES */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8; 
+            color: #333;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 900px; 
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+        }
+
+        /* HEADER & INTRO STYLES */
+        header {
+            background-color: #154734; /* IIT Madras Green color */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .intro-points {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 1.1em;
+            margin-top: 5px;
+        }
+
+
+        /* SECTION STYLES */
+        .bio-section {
+            padding-top: 2px;
+        }
+
+        .subsection {
+            padding: 20px ;
+        }
+
+        h2 {
+            color: #d85c27; /* Accent color */
+            border-bottom: 2px solid #d85c27;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            margin-right: 15px;
+            border-radius: 5px;
+
+            transition: background-color 0.3s;
+        }
+
+        /*Widget Styles */
+       /* Style for the outer container */
+        .widgets h2 {
+            /* Style for the heading line */
+            border-bottom: 2px solid #d85c27;
+        }
+
+        /* Style for the weather widget (using ID) */
+        #weather-widget { 
+            background-color: #e6f7ff; /* Light blue background */
+            border: 1px solid #007bff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        /* In your style.css */
+        #map-widget {
+            /* CRITICAL: A specific height is required for Leaflet to display the map! */
+            height: 400px; 
+            width: 100%;
+            /* Add border/styling to match your weather widget */
+            border: 1px solid #333;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    </head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Idris Musanna Urvath</h1>
+            <ul class="intro-points">
+                <li>Freshie</li>
+                <li>IIT Madras</li>
+                <li>Civil Engineering</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="bio-section">
+            <div id="about-me" class="subsection">
+                <h2>About Me</h2>
+                <p>Hey! I am Idris Musanna Urvath from Kerala. I am currently a Freshie Civil Engineer at IIT Madras (IITM). I love speedcubing, watching animes, and travelling. Let's connect so that I can travel and explore your hometown!</p>
+            </div>
+
+            <div id="goals" class="subsection">
+                <h2>Goals</h2>
+                <ul>
+                    <li>Learn New Stuff (always!)</li>
+                    <li>Master Structural Analysis</li>
+                    <li>Build a Responsive Web Portfolio</li>
+                    <li>Travel to all major cities in India</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact  Me</h2>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">Email Me</a>
+                <a href="https://linkedin.com/in/..." target="_blank">LinkedIn</a>
+            </div>
+        </section>
+        <section class="widgets">
+            <h2>Dynamic Widgets</h2>
+
+            <div  id="weather-widget">
+                <p>Loading weather data...</p>
+            </div>
+
+           <div id="map-widget">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
