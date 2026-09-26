@@ -1,0 +1,293 @@
+{
+ "entries": [
+  {
+   "date": "2026-09-13",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3200,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-13",
+   "person": "Metro Cash & Carry",
+   "description": "stock: rice, oil, sugar",
+   "amount": 10000,
+   "type": "stock_purchase"
+  },
+  {
+   "date": "2026-09-13",
+   "person": "Suresh",
+   "description": "provisions - credit",
+   "amount": 1500,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-14",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3600,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-14",
+   "person": "Mini",
+   "description": "groceries - credit",
+   "amount": 800,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-15",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3100,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-15",
+   "person": "",
+   "description": "shop rent",
+   "amount": 4000,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-16",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3800,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-16",
+   "person": "Girija",
+   "description": "provisions - credit",
+   "amount": 1200,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-16",
+   "person": "Suresh",
+   "description": "paid old credit",
+   "amount": 1500,
+   "type": "payment_received"
+  },
+  {
+   "date": "2026-09-17",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3500,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-17",
+   "person": "Kumble Traders",
+   "description": "stock: snacks, tea",
+   "amount": 6500,
+   "type": "stock_purchase"
+  },
+  {
+   "date": "2026-09-18",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3900,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-18",
+   "person": "Anwar",
+   "description": "provisions - credit",
+   "amount": 2000,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-18",
+   "person": "",
+   "description": "electricity bill",
+   "amount": 1200,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-18",
+   "person": "",
+   "description": "helper wages",
+   "amount": 2000,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-19",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3300,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-19",
+   "person": "",
+   "description": "money taken home",
+   "amount": 2000,
+   "type": "withdrawal"
+  },
+  {
+   "date": "2026-09-19",
+   "person": "",
+   "description": "auto for goods",
+   "amount": 400,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-19",
+   "person": "Mini",
+   "description": "paid old credit",
+   "amount": 800,
+   "type": "payment_received"
+  },
+  {
+   "date": "2026-09-20",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3400,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-20",
+   "person": "Metro Cash & Carry",
+   "description": "stock: full order",
+   "amount": 20000,
+   "type": "stock_purchase"
+  },
+  {
+   "date": "2026-09-20",
+   "person": "Mini",
+   "description": "groceries - credit",
+   "amount": 1000,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-21",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3900,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-21",
+   "person": "Girija",
+   "description": "provisions - credit",
+   "amount": 2500,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-21",
+   "person": "Girija",
+   "description": "paid part of credit",
+   "amount": 500,
+   "type": "payment_received"
+  },
+  {
+   "date": "2026-09-22",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3300,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-22",
+   "person": "",
+   "description": "shop rent",
+   "amount": 4000,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-23",
+   "person": "",
+   "description": "counter sales",
+   "amount": 4200,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-23",
+   "person": "Rasheed",
+   "description": "provisions - credit",
+   "amount": 3500,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-23",
+   "person": "Kumble Traders",
+   "description": "stock: biscuits, milk",
+   "amount": 7500,
+   "type": "stock_purchase"
+  },
+  {
+   "date": "2026-09-24",
+   "person": "",
+   "description": "counter sales",
+   "amount": 3800,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-24",
+   "person": "Anwar",
+   "description": "provisions - credit",
+   "amount": 4000,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-24",
+   "person": "",
+   "description": "electricity bill",
+   "amount": 1300,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-24",
+   "person": "",
+   "description": "helper wages",
+   "amount": 2000,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-25",
+   "person": "",
+   "description": "counter sales",
+   "amount": 4400,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-25",
+   "person": "Fathima",
+   "description": "provisions - credit",
+   "amount": 1800,
+   "type": "credit_sale"
+  },
+  {
+   "date": "2026-09-25",
+   "person": "",
+   "description": "money taken home",
+   "amount": 2500,
+   "type": "withdrawal"
+  },
+  {
+   "date": "2026-09-25",
+   "person": "",
+   "description": "auto for goods",
+   "amount": 500,
+   "type": "expense"
+  },
+  {
+   "date": "2026-09-26",
+   "person": "",
+   "description": "counter sales (so far)",
+   "amount": 2800,
+   "type": "cash_sale"
+  },
+  {
+   "date": "2026-09-26",
+   "person": "Rasheed",
+   "description": "provisions - credit",
+   "amount": 1500,
+   "type": "credit_sale"
+  }
+ ],
+ "reminders": [],
+ "pending": null
+}
